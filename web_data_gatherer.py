@@ -44,9 +44,3 @@ class DataGatherer:
         
         return country_fuel_price
         
-
-
-
-f = DataGatherer()
-
-print(f.get_fuel_data_from_web("LPG"))
